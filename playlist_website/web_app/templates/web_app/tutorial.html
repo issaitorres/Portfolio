@@ -1,0 +1,35 @@
+{% extends "web_app/index.html" %}
+
+{% block content%}
+{% load static %}
+
+	<div class="container">
+		<h1>
+			Tutorial
+		</h1>
+		<p>
+			Let's say you want to get information about a playlist that isn't easily available such as:
+		</p>
+		<ul>
+			<li>Total Playlist Duration</li>
+			<li>Most Liked Video in the playlist</li>
+			<li>Most Comments...</li>
+		</ul>
+		<p class="mb-7">
+			All you have to do is copy the playlist code and paste it above.
+		</p>
+		<img src="{% static 'images/sample2.jpg' %}" class="img-fluid" alt="Responsive image">
+		<p class="mb-7">And we get back information. </p>
+		<img src="{% static 'images/sample4.jpg' %}" class="img-fluid" alt="Responsive image">
+
+		<h2 class="mb-7">
+			Demonstration
+		</h2>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe width="1366" height="487" src="https://www.youtube.com/embed/61rJDjxWDd0"
+					frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope;
+					picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+
+{% endblock content%}
