@@ -6,7 +6,7 @@ Here are a couple projects I have worked on.
 
 The purpose of this website is to take in any Youtube Playlist ID and return back information about that playlist.
 
-Link to working website 11/25/2020
+Link to working website, 11/25/2020:
 https://playlistinfo.herokuapp.com/
 
 
