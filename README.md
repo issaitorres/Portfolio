@@ -15,3 +15,14 @@ To run this yourself:
 2. Get Youtube API key
 3. Enter key in playlist_website/web_app/views.py
 4. Run Django project
+
+
+# Hangman UI
+
+The purpose of this application is to run Hangman Game using PyGame module
+
+To run this yourself:
+1. Clone Repository
+2. Run project
+
+
