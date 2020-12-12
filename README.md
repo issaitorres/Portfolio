@@ -29,3 +29,5 @@ Content
 
 ![hangman1](https://user-images.githubusercontent.com/23545060/101965521-ce449b00-3bc9-11eb-956d-f84a22fb2e89.png)
 
+
+![hangman2](https://user-images.githubusercontent.com/23545060/101965566-f7fdc200-3bc9-11eb-95c0-846ef259137d.png)
