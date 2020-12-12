@@ -19,7 +19,7 @@ To run this yourself:
 
 # Hangman UI
 
-The purpose of this application is to run Hangman Game using PyGame module
+The purpose of this application is to run Hangman using the PyGame module.
 
 To run this yourself:
 1. Clone Repository
