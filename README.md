@@ -6,13 +6,13 @@ Here are a couple projects I have worked on.
 
 The purpose of this website is to take in any Youtube Playlist ID and return back information about that playlist.
 
-Link to working website, 11/25/2020:
+Link to working website, 12/16/2020:
 https://playlistinfo.herokuapp.com/
 
 Demonstration Video: https://www.youtube.com/watch?v=61rJDjxWDd0
 
 
-To run this yourself:
+To run this:
 1. Clone Repository
 2. Get Youtube API key
 3. Enter key in playlist_website/web_app/views.py
@@ -20,13 +20,15 @@ To run this yourself:
 
 Content
 
+![Screen Shot 2020-12-16 at 8 01 48 PM](https://user-images.githubusercontent.com/23545060/102442742-ec4f3880-3fd9-11eb-80ed-2202c39a2463.png)
+
 
 
 # Hangman UI
 
 The purpose of this application is to run Hangman using the PyGame module.
 
-To run this yourself:
+To run this:
 1. Clone Repository
 2. Run project
 
