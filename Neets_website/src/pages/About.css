@@ -1,0 +1,209 @@
+/* Table of Contents
+
+1. About Page
+  1.1 About Us Section
+  1.2 Community Section
+  1.3 Reviews (Grid) Section
+  1.4 Map Section
+  1.5 Email Form Section
+
+*/
+
+/*
+=============== 
+About Page
+===============
+*/
+
+/* About Us Section */
+
+.about-section h3 {
+  text-align: center;
+  color: black;
+}
+
+.about-section img {
+  margin-bottom: 50px;
+}
+
+.about-indiv-section {
+  padding: 20px 0;
+}
+
+.about-indiv-section hr {
+  margin: 10px;
+  padding: 0px 0px;
+}
+
+/* Community Section*/
+
+.community-container {
+  text-align: center;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+
+.community-wrapper {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.community-left {
+  padding-top: 10px;
+  padding-right: 10px;
+  flex-basis: 50%;
+}
+
+.community-right {
+  justify-content: center;
+  text-align: center;
+  flex-basis: 40%;
+  padding-left: 20px;
+}
+
+.community-right .highlight {
+  display: flex;
+}
+
+.highlight {
+  text-align: center;
+  justify-content: center2;
+}
+
+.highlight-image {
+  justify-content: center;
+  vertical-align: center;
+}
+
+.highlight-desc {
+  padding-left: 10px;
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .community-left,
+  .community-right {
+    flex-basis: 100%;
+  }
+
+  .community-wrapper {
+    padding-top: 5px;
+  }
+}
+
+/* Reviews (Grid) Section */
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 4;
+}
+
+.grid-item {
+  max-width: 200px;
+  height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  margin: 10px 10px;
+  border-radius: 1.5em;
+}
+
+.grid-item img {
+  transition: transform 0.5s ease;
+}
+
+.grid-item:hover img {
+  transform: scale(1.25);
+}
+
+@media (max-width: 540px) {
+  .grid-item {
+    width: 150px;
+    height: 150px;
+    margin: 5px 5px;
+    border-radius: 1.5em;
+  }
+  .grid-item img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-item {
+    width: 100px;
+    height: 100px;
+  }
+  .grid-item img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 300px) {
+  .grid-item {
+    width: 80px;
+    height: 80px;
+  }
+  .grid-item img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Map Section */
+
+.about-map {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Email Form Section */
+
+.contact-container {
+  margin-top: 20px;
+}
+
+.contact-container h5 {
+  color: black;
+}
+
+.contact-container .form-control {
+  margin: 10px;
+  padding: 2px 15px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-container .contact-message {
+  padding-bottom: 20px;
+}
+
+.contact-container .contact-button {
+  background-color: #2175fc;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-container .contact-button:hover {
+  background-color: #1753b3;
+}
