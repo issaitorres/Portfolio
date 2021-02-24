@@ -2,7 +2,7 @@
 
 Here are a couple projects I have worked on.
 
-# Neets Wesite (Responsve Website)
+# Neets Wesite (Responsive Website)
 
 The purpose of this website was to build a responsive website using React, javascript, html/css.
 
