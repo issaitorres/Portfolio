@@ -2,6 +2,15 @@
 
 Here are a couple projects I have worked on.
 
+# Neets Wesite (Responsve Website)
+
+The purpose of this website was to build a responsive website using React, javascript, html/css.
+
+Link to working website, 12/16/2020:
+https://neets.netlify.app/
+
+Content
+
 # Playlist Info 
 
 The purpose of this website is to take in any Youtube Playlist ID and return back information about that playlist.
