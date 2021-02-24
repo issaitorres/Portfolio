@@ -6,7 +6,7 @@ Here are a couple projects I have worked on.
 
 The purpose of this website was to build a responsive website using React, javascript, html/css.
 
-Link to working website, 12/16/2020:
+Link to working website, 2/22/2020:
 https://neets.netlify.app/
 
 Content
