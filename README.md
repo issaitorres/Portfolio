@@ -40,7 +40,11 @@ Content
 ![Screen Shot 2020-12-16 at 8 01 48 PM](https://user-images.githubusercontent.com/23545060/102442986-8616e580-3fda-11eb-988b-0e8094ee09bf.png)
 
 
+# Neets Automation Testing  
 
+The purpose of this application is to use Selenium and Python to run automated tests on the Neets Website. Tests that User Interface and functionality is working accordingly. This includes: images and icons being displayed, links redirecting to correct pages, modal interaction, sending an email, review carousel, and error page.
+
+Demonstration Video: https://www.youtube.com/watch?v=3ugXXmbFuZY
 
 
 # Hangman UI
