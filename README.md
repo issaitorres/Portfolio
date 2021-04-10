@@ -2,6 +2,21 @@
 
 Here are a couple projects I have worked on.
 
+# Neets Wesite (Responsive Website)
+
+The purpose of this website was to build a responsive website using React, javascript, html/css.
+
+Link to working website, 2/22/2020:
+https://neets.netlify.app/
+
+Content
+
+![Screen Shot 2021-02-23 at 5 45 28 PM](https://user-images.githubusercontent.com/23545060/108933487-189dbb80-7600-11eb-8bc8-d29581fd26ae.png)
+
+![Screen Shot 2021-02-23 at 5 45 55 PM](https://user-images.githubusercontent.com/23545060/108933369-e2603c00-75ff-11eb-9b7c-21ef5f2d26f0.png)
+
+![Screen Shot 2021-02-23 at 5 47 06 PM](https://user-images.githubusercontent.com/23545060/108933494-1b98ac00-7600-11eb-97bb-eee2a387ffa2.png)
+
 # Playlist Info 
 
 The purpose of this website is to take in any Youtube Playlist ID and return back information about that playlist.
