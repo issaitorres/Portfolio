@@ -47,7 +47,10 @@ The purpose of this application is to use Selenium and Python to run automated t
 Demonstration Video: https://www.youtube.com/watch?v=3ugXXmbFuZY
 
 Content
+
 ![Screen Shot 2021-04-10 at 12 52 59 AM](https://user-images.githubusercontent.com/23545060/114263112-8a577c00-9998-11eb-8fc9-621c624a514c.png)
+
+![Screen Shot 2021-04-10 at 12 57 18 AM](https://user-images.githubusercontent.com/23545060/114263130-aa873b00-9998-11eb-8a13-7cebeeeecd19.png)
 
 
 # Hangman UI
