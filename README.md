@@ -42,7 +42,7 @@ Content
 
 # Neets Automation Testing  
 
-The purpose of this application is to use Selenium and Python to run automated tests on the Neets Website. Tests that User Interface and functionality is working accordingly. This includes: images and icons being displayed, links redirecting to correct pages, modal interaction, sending an email, review carousel, and error page.
+The purpose of this application is to use Selenium and the Unit Test Framework to run automated tests on the Neets Website. Tests that User Interface and functionality is working accordingly. This includes: images and icons being displayed, links redirecting to correct pages, modal interaction, sending an email, review carousel, and error page.
 
 Demonstration Video: https://www.youtube.com/watch?v=3ugXXmbFuZY
 
