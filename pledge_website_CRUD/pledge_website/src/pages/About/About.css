@@ -1,0 +1,45 @@
+/* Table of Contents
+
+1. About Page
+  1.1 Global Styles
+  1.2 Accordion (Accordion css is in Components/Accordion.js because of material UI)
+
+*/
+
+/*
+=============== 
+About Page
+===============
+*/
+
+/* 1.1 Global Styles */
+
+.about-section {
+  margin: 75px auto;
+  padding: 10px 30px;
+  max-width: 1170px;
+  text-align: center;
+}
+
+.about-section p {
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.about-section img {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  overflow: auto;
+  margin: 10px auto;
+  padding: 0px 10px;
+  border-radius: 1em;
+}
+
+.accordion {
+  margin: 0px auto 75px auto;
+  padding: 0px 10px;
+  max-width: 600px;
+}

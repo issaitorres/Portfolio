@@ -1,0 +1,273 @@
+/* Table of Contents
+
+1. Contact Page
+  1.1 Global Styles
+  1.2 Form
+  1.3 Alert
+
+*/
+
+/*
+=============== 
+Contact Page
+===============
+*/
+
+/* 1.1 Global Styles */
+
+.contact-heading {
+  margin: 20px;
+}
+
+.contact-section {
+  margin: 75px auto 42vh auto;
+  max-width: 1170px;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+
+.contact-section h1 {
+  text-align: center;
+}
+
+/* 1.2 Form */
+
+.form-container {
+  margin: 10px;
+  padding: 0px 50px 0px 0px;
+}
+
+.form-container .contact-row {
+  text-align: center;
+}
+.contact-row {
+  margin: 2px;
+}
+
+@media screen and (max-width: 350px) {
+  .form-container {
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+.form-container .form-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+  max-width: 400px;
+  min-width: 50px;
+  line-height: 34px;
+  margin: 20px 0px 0px 0px;
+}
+
+.form-label input,
+.form-label select {
+  height: 30px;
+  flex: 0 0 200px;
+  margin: 5px 0px 5px 10px;
+}
+
+.form-label select {
+  cursor: pointer;
+}
+
+.form-label .message-field {
+  height: 100px;
+  width: 200px;
+  margin: 0px 0px 0px 10px;
+  word-wrap: break-word;
+  resize: none;
+  padding: 1px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contact-row-submit {
+  text-align: center;
+  align-items: center;
+}
+
+.form-container .submit-button {
+  padding: 0.5em 1.3em;
+  border: 0.2em solid var(--clr-main-shade-2);
+  margin: 20px auto;
+  align-content: center;
+  border-radius: 0.2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: var(--clr-main-shade-2);
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container .submit-button:hover {
+  color: white;
+  background-color: var(--clr-main);
+}
+
+a.button1 {
+  display: inline-block;
+  padding: 0.3em 1.1em;
+  border: 0.2em solid var(--clr-main-shade-2);
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: var(--clr-main-shade-2);
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+a.button1:hover {
+  color: white;
+  background-color: var(--clr-main);
+}
+@media all and (max-width: 30em) {
+   a.button1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+/* 1.3 Alert */
+button {
+  padding: 8px 16px;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: black;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.alert {
+  background: var(--clr-main-tint-1);
+  padding: 20px 40px;
+  min-width: 420px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  border-radius: 4px;
+  border-left: 8px solid var(--clr-main-shade-2);
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.alert.showAlert {
+  opacity: 1;
+  pointer-events: auto;
+}
+.alert.show {
+  animation: show_slide 1s ease forwards;
+}
+@keyframes show_slide {
+  0% {
+    transform: translateX(100%);
+  }
+  40% {
+    transform: translateX(-10%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+.alert.hide {
+  animation: hide_slide 1s ease forwards;
+}
+@keyframes hide_slide {
+  0% {
+    transform: translateX(-10px);
+  }
+  40% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.alert .fa-exclamation-circle {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 30px;
+}
+.alert .msg {
+  padding: 0 20px;
+  font-size: 18px;
+  color: white;
+}
+.alert .close-btn {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--clr-main-shade-2);
+  padding: 20px 8px;
+  cursor: pointer;
+}
+.alert .close-btn:hover {
+  background: var(--clr-main-shade-1);
+}
+.alert .close-btn .fas {
+  color: white;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 460px) {
+  .alert {
+    padding: 15px 40px;
+    min-width: 200px;
+    max-width: 360px;
+    border-radius: 4px;
+    border-left: 6px solid var(--clr-main-shade-2);
+  }
+  .alert .fa-exclamation-circle {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 20px;
+  }
+  .alert .msg {
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+    color: white;
+    vertical-align: middle;
+  }
+  .alert .close-btn {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--clr-main-shade-2);
+    padding: 10px 0px;
+    cursor: pointer;
+  }
+  .alert .close-btn:hover {
+    background: var(--clr-main-shade-1);
+  }
+  .alert .close-btn .fas {
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+  }
+}

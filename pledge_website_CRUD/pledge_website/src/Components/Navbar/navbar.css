@@ -1,0 +1,154 @@
+/* Table of Contents
+
+1. Navbar 
+  1.1 Global Styles
+  1.2 Sidebar
+ 
+*/
+
+/*
+=============== 
+Navbar 
+===============
+*/
+
+/* 1.1 Global Styles */
+
+.navbar {
+  background-color: var(--clr-main);
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.menu-bars {
+  padding-top: 1rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.menu-active {
+  margin-top: 22px;
+}
+
+.nav-menu {
+  display: none;
+  position: relative;
+  background-color: var(--clr-main);
+  width: 150px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  z-index: 4;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.title-icon {
+  color: white;
+}
+
+.nav-text {
+  color: white;
+}
+.nav-text:hover {
+  color: var(--clr-main-shade-1);
+}
+
+.list-item-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+}
+
+.list-item-text:after {
+  content: "";
+  position: relative;
+  width: 100%;
+  transform: scaleX(0);
+  height: 6px;
+  top: 20px;
+  right: 50px;
+  background-color: var(--clr-main-shade-1);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.list-item-text:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.list-item-text2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+}
+
+.list-item-text2:after {
+  content: "";
+  position: relative;
+  width: 100%;
+  transform: scaleX(0);
+  height: 6px;
+  top: 20px;
+  right: 64px;
+  background-color: var(--clr-main-shade-1);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.list-item-text2:hover:after {
+  transform: scaleX(1.3);
+  transform-origin: bottom left;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+/* 1.2 Sidebar */
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.background-fill {
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 200%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
