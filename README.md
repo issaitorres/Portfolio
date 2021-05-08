@@ -40,7 +40,17 @@ Content
 ![Screen Shot 2020-12-16 at 8 01 48 PM](https://user-images.githubusercontent.com/23545060/102442986-8616e580-3fda-11eb-988b-0e8094ee09bf.png)
 
 
+# Neets Automation Testing  
 
+The purpose of this application is to use Selenium and the Unit Test Framework to run automated tests on the Neets Website. Tests that User Interface and functionality is working accordingly. This includes: images and icons being displayed, links redirecting to correct pages, modal interaction, sending an email, review carousel, and error page.
+
+Demonstration Video: https://www.youtube.com/watch?v=3ugXXmbFuZY
+
+Content
+
+![Screen Shot 2021-04-10 at 12 52 59 AM](https://user-images.githubusercontent.com/23545060/114263112-8a577c00-9998-11eb-8fc9-621c624a514c.png)
+
+![Screen Shot 2021-04-10 at 12 57 18 AM](https://user-images.githubusercontent.com/23545060/114263130-aa873b00-9998-11eb-8a13-7cebeeeecd19.png)
 
 
 # Hangman UI
