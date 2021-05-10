@@ -36,7 +36,7 @@ Content
 
 ![Screen Shot 2021-02-23 at 5 47 06 PM](https://user-images.githubusercontent.com/23545060/108933494-1b98ac00-7600-11eb-97bb-eee2a387ffa2.png)
 
-# Playlist Info 
+# Playlist Info Website
 
 The purpose of this website is to take in any Youtube Playlist ID and return back information about that playlist.
 
@@ -45,12 +45,6 @@ https://playlistinfo.herokuapp.com/
 
 Demonstration Video: https://www.youtube.com/watch?v=61rJDjxWDd0
 
-
-To run this:
-1. Clone Repository
-2. Get Youtube API key
-3. Enter key in playlist_website/web_app/views.py
-4. Run Django project
 
 Content
 
@@ -76,9 +70,6 @@ Content
 
 The purpose of this application is to run Hangman using the PyGame module.
 
-To run this:
-1. Clone Repository
-2. Run project
 
 Content
 
