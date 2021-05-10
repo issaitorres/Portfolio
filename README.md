@@ -9,8 +9,9 @@ The purpose of this website was to build a CRUD web application website using Re
 Link to working website, 5/8/2021:
 https://neets.netlify.app/
 
-website demo: https://youtu.be/DSQnUkFTqWY
-localhost demo: https://youtu.be/bs7WZOfRoTg
+Website demonstration video: https://youtu.be/DSQnUkFTqWY
+
+Localhost demostration video: https://youtu.be/bs7WZOfRoTg
 
 Content
 
