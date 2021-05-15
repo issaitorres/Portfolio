@@ -6,7 +6,7 @@ Here are a couple projects I have worked on.
 
 The purpose of this website was to build a CRUD web application website using React, MySQL, html/css.
 
-Link to working website, 5/8/2021:
+Link to working website:
 https://thepledgeorganization.netlify.app/
 
 Website demonstration video: https://youtu.be/DSQnUkFTqWY
@@ -25,7 +25,7 @@ Content
 
 The purpose of this website was to build a responsive website using React, javascript, html/css.
 
-Link to working website, 2/22/2021:
+Link to working website:
 https://neets.netlify.app/
 
 Content
@@ -40,7 +40,7 @@ Content
 
 The purpose of this website is to take in any Youtube Playlist ID and return back information about that playlist.
 
-Link to working website, 12/16/2020:
+Link to working website:
 https://playlistinfo.herokuapp.com/
 
 Demonstration Video: https://www.youtube.com/watch?v=61rJDjxWDd0
