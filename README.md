@@ -4,7 +4,7 @@ Here are a couple projects I have worked on.
 
 # Pledge Wesite (CRUD)
 
-The purpose of this website was to build a CRUD web application website using React, MySQL, html/css.
+The purpose of this website was to build a CRUD web application using React, MySQL, html/css.
 
 Link to working website:
 https://thepledgeorganization.netlify.app/
