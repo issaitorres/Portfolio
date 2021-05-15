@@ -7,7 +7,7 @@ Here are a couple projects I have worked on.
 The purpose of this website was to build a CRUD web application website using React, MySQL, html/css.
 
 Link to working website, 5/8/2021:
-https://neets.netlify.app/
+https://thepledgeorganization.netlify.app/
 
 Website demonstration video: https://youtu.be/DSQnUkFTqWY
 
