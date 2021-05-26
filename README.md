@@ -2,7 +2,7 @@
 
 Here are a couple projects I have worked on.
 
-# Pledge Wesite (CRUD)
+# Pledge Website (CRUD)
 
 The purpose of this website was to build a CRUD web application using React, MySQL, html/css.
 
@@ -11,7 +11,7 @@ https://thepledgeorganization.netlify.app/
 
 Website demonstration video: https://youtu.be/DSQnUkFTqWY
 
-Localhost demostration video: https://youtu.be/bs7WZOfRoTg
+Localhost demonstration video: https://youtu.be/bs7WZOfRoTg
 
 Content
 
@@ -21,7 +21,7 @@ Content
 
 ![Screen Shot 2021-05-10 at 3 40 47 AM](https://user-images.githubusercontent.com/23545060/117647437-ccafdc80-b141-11eb-8410-180039520768.png)
 
-# Neets Wesite (Responsive Website)
+# Neets Wesbite (Responsive Website)
 
 The purpose of this website was to build a responsive website using React, javascript, html/css.
 
