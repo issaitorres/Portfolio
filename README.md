@@ -21,7 +21,7 @@ Content
 
 ![Screen Shot 2021-05-10 at 3 40 47 AM](https://user-images.githubusercontent.com/23545060/117647437-ccafdc80-b141-11eb-8410-180039520768.png)
 
-# Neets Wesbite (Responsive Website)
+# Neets Website (Responsive Website)
 
 The purpose of this website was to build a responsive website using React, javascript, html/css.
 
