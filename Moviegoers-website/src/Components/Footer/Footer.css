@@ -1,0 +1,66 @@
+/* Table of Contents
+
+1. Footer 
+  1.1 Styles
+ 
+*/
+
+/*
+=============== 
+Footer 
+===============
+*/
+
+/* 1.1 Styles */
+
+.main-footer {
+  color: white;
+  background-color: var(--clr-main);
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer-col {
+  margin: 10px 10px;
+}
+
+.footer-col h4 {
+  color: var(--clr-fourth);
+}
+
+.footer-list a {
+  color: var(--clr-white);
+}
+.footer-list a:hover {
+  color: var(--clr-third);
+}
+
+.line {
+  margin: 10px 20px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.footer-row-end {
+  text-align: center;
+}
+
+.footer-col-end {
+  margin: 0px 10px 10px 10px;
+  color: white;
+}

@@ -1,0 +1,52 @@
+/* Table of Contents
+
+1. About 
+  1.1 Styles
+ 
+*/
+
+/*
+=============== 
+About 
+===============
+*/
+
+/* 1.1 Styles */
+
+.about-container {
+  margin: 35px auto 20px auto;
+}
+
+.about-info {
+  margin: 20px auto 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 800px;
+  text-align: center;
+  justify-content: center;
+}
+
+.about-container h1 {
+  color: var(--clr-dark_mode_white);
+  text-align: center;
+}
+.about-container img {
+  max-width: 450px;
+  width: 75%;
+  height: auto;
+  margin: 10px 20px;
+  text-shadow: 2px 2px red;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: var(--clr-dark_mode_white);
+}
+
+.about-container p {
+  margin: 10px 20px;
+  color: var(--clr-dark_mode_white);
+}

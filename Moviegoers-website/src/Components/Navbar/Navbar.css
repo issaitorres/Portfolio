@@ -1,0 +1,44 @@
+/* Table of Contents
+
+1. Navbar 
+  1.1 Styles
+ 
+*/
+
+/*
+=============== 
+Navbar 
+===============
+*/
+
+/* 1.1 Styles */
+
+.navbar {
+  background-color: var(--clr-main);
+  height: 110px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar h1 {
+  color: var(--clr-secondary);
+  font-family: "Pattaya", sans-serif;
+  font-size: 90px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--clr-fourth);
+}
+
+@media screen and (max-width: 450px) {
+  .navbar h1 {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .navbar h1 {
+    font-size: 58px;
+  }
+}
