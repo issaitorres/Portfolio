@@ -2,7 +2,7 @@
 
 Here are a couple projects I have worked on.
 
-# Moviegoers Website (CRUD)
+# Moviegoers Website
 
 The purpose of this website was to build a web application using React, Axios, html/css to access The Movie Datebase API and display information.
 
@@ -16,6 +16,9 @@ Content
 ![Screen Shot 2021-06-05 at 1 14 30 AM](https://user-images.githubusercontent.com/23545060/120885090-da6b4d00-c59b-11eb-9f20-03abed21e54c.png)
 
 ![Screen Shot 2021-06-05 at 1 14 36 AM](https://user-images.githubusercontent.com/23545060/120885089-da6b4d00-c59b-11eb-8048-1d3227d7ec11.png)
+
+
+Website demonstration video: https://youtu.be/HWit3Dp_DU4
 
 
 
