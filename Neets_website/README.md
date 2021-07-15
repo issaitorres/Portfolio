@@ -1,3 +1,23 @@
+
+# Neets Website (Responsive Website)
+
+The purpose of this website was to build a responsive website using React, javascript, html/css.
+
+Link to working website:
+https://neets.netlify.app/
+
+
+Demonstration Video: https://www.youtube.com/watch?v=1vpjhuZ3E1w
+
+Content
+
+![Screen Shot 2021-02-23 at 5 45 28 PM](https://user-images.githubusercontent.com/23545060/108933487-189dbb80-7600-11eb-8bc8-d29581fd26ae.png)
+
+![Screen Shot 2021-02-23 at 5 45 55 PM](https://user-images.githubusercontent.com/23545060/108933369-e2603c00-75ff-11eb-9b7c-21ef5f2d26f0.png)
+
+![Screen Shot 2021-02-23 at 5 47 06 PM](https://user-images.githubusercontent.com/23545060/108933494-1b98ac00-7600-11eb-97bb-eee2a387ffa2.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
